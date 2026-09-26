@@ -1,0 +1,82 @@
+.calculate-bill-btn {
+    margin-top: 20px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #16a34a;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.calculate-bill-btn:hover {
+    background-color: #15803d;
+}
+.selected-item-card input {
+    width: 70px;
+    padding: 7px 8px;
+    margin-left: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.bill-details-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8fafc;
+}
+
+.bill-details-section h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.bill-details-section p {
+    margin: 8px 0;
+}
+.bill-details-section h3:last-child {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #e8f5e9;
+    font-size: 20px;
+    text-align: right;
+}
+.back-btn {
+    margin-top: 10px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #64748b;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: #475569;
+}
+.bill-preview-btn {
+    margin-top: 15px;
+    padding: 10px 24px;
+    background-color: #c36060;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.bill-preview-btn:hover {
+    background-color: #d86464;
+}
+
+.bill-preview-btn:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,89 @@
+.app-layout {
+    min-height: 100vh;
+    background-color: #f5f7fa;
+}
+
+/* Header */
+
+.app-header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Application Name */
+
+.header-title {
+    min-width: 190px;
+}
+
+.header-title h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Navigation */
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex: 1;
+}
+
+.header-navigation a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 22px 0;
+    transition: color 0.2s ease;
+}
+
+.header-navigation a:hover {
+    color: #1f6feb;
+}
+
+.header-navigation a.active {
+    color: #1f6feb;
+    font-weight: 700;
+    border-bottom: 3px solid #1f6feb;
+}
+
+/* Header Actions */
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-actions span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-actions button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header-actions button:hover {
+    background-color: #f3f4f6;
+}
+
+/* Main Content */
+
+.app-content {
+    padding: 30px;
+}
+
